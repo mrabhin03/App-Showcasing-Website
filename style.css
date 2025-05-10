@@ -1,0 +1,364 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.8rem;
+  color: #4f46e5;
+  font-weight: bold;
+}
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary {
+  background-color: #4f46e5;
+  color: white;
+}
+.btn-secondary {
+  background-color: #6b7280;
+  color: white;
+  /* margin-left: 1rem; */
+  text-align: center;
+}
+.Download{
+    background-color: #4f46e5;
+    width: fit-content;
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-top: 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Hero */
+.hero {
+  margin-top: 80px;
+  padding: 4rem 0;
+  background: #f9fafb;
+}
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+.hero-text {
+  flex: 1;
+}
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+.hero-img {
+  flex: 1;
+  text-align: center;
+}
+.hero-img img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.store-badge {
+  width: 150px;
+  height: auto;
+}
+
+/* Features */
+.features {
+  padding: 4rem 0;
+  background: white;
+}
+.features h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.feature-card {
+  background: #f3f4f6;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Stats */
+.stats {
+  background: #eef2ff;
+  padding: 3rem 0;
+}
+.stats-content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.stat-box h4 {
+  font-size: 2rem;
+  color: #4f46e5;
+}
+.stat-box p {
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+/* App Info */
+.app-info {
+    margin-top: 80px;
+  background: #f1f5f9;
+  padding: 2rem 0;
+  border-top: 1px solid #ddd;
+}
+.app-header {
+    max-width: 700px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.app-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.app-meta{
+display: flex;
+flex-direction: column;
+}
+.app-meta h2 {
+  margin-bottom: 0.3rem;
+  font-size: 1.8rem;
+  color: #111827;
+}
+.app-meta p {
+  color: #6b7280;
+  font-size: 1rem;
+}
+.how-to-use {
+  padding: 4rem 0;
+  background-color: #f9fafb;
+}
+.about-app {
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.about-app h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-app p {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.how-to-use h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.manual-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Screenshots */
+.screenshots {
+  background: #fff;
+  padding: 4rem 0;
+}
+.screenshots h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.screenshot-gallery {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.screenshot-gallery img {
+  width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Preview Versions */
+.preview {
+  background: #f9fafb;
+  text-align: center;
+  padding: 4rem 0;
+}
+.preview h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.preview p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+/* What's New */
+.whats-new {
+  background-color: #fff;
+  padding: 3rem 0 1.5rem;
+  border-top: 1px solid #eee;
+}
+.whats-new h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.version-info {
+  text-align: center;
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+.changelog {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.changelog li {
+  background: #e7f2fe;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 0.6rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #374151;
+}
+/* Previous Versions */
+.previous-versions {
+  padding: 3rem 0;
+  background-color: #f9fafb;
+}
+.previous-versions h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.version-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.version-list li {
+  background: #ffffff;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  color: #374151;
+  position: relative;
+}
+.version-meta {
+  margin-top: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.status {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+.status.supported {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+.status.not-supported {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+.btn-download {
+  background-color: #4f46e5;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+.btn-download:hover {
+  background-color: #4338ca;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+  }
+  .hero-text h2 {
+    font-size: 2rem;
+  }
+  .btn-secondary {
+    margin-left: 0;
+  }
+}
