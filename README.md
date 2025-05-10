@@ -19,9 +19,6 @@ A modern, responsive website designed to showcase the **MyFriends** chat applica
 * 🔹 Usage Manual for new users
 * 🔹 Clean and modern responsive layout
 
-## 📸 Screenshot Preview
-
-![Preview](ScreenShots/6.jpg)
 
 ## 🚀 Live Preview
 
@@ -40,7 +37,7 @@ You can host it locally or deploy to GitHub Pages, Netlify, or any static hostin
 ## 🔧 How to Use
 
 1. Clone the repository
-   `git clone https://github.com/yourusername/app-showcasing-website.git`
+   `git clone https://github.com/mrabhin03/App-Showcasing-Website`
 
 2. Open `index.html` in your browser
    *or* deploy it to a live static host.
