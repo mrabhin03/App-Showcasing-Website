@@ -27,9 +27,7 @@ This project is a lightweight, mobile-first webpage designed to:
 ## 🧾 How to Use
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/app-showcasing-website.git
-````
+   ```bash git clone https://github.com/yourusername/app-showcasing-website.git
 
 2. Open `index.html` in your browser.
 3. Customize content and images as needed.
